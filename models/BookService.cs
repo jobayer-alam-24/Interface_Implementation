@@ -67,13 +67,13 @@ namespace Interface_Implementation.models
         public void DisplayBookDetails()
         {
             Console.WriteLine($"=========Book Details=========");
-            Console.WriteLine($"Book ID: {ID}");
-            Console.WriteLine($"Author: {Author}");
-            Console.WriteLine($"Name: {Name}");
-            Console.WriteLine($"Price: {Price}");
-            Console.WriteLine($"Rack No: {RackNo}");
-            Console.WriteLine($"Stauts: {Status}");
-            Console.WriteLine($"Editon: {Edition}");
+            Console.WriteLine($"Book ID: {BookID}");
+            Console.WriteLine($"Author: {AuthorName}");
+            Console.WriteLine($"Name: {BookTitle}");
+            Console.WriteLine($"Price: {BookPrice}");
+            Console.WriteLine($"Rack No: {BookRackNo}");
+            Console.WriteLine($"Stauts: {BookStatus}");
+            Console.WriteLine($"Editon: {BookEdition}");
             Console.WriteLine($"PurchaseDate: {PurchaseDate.ToShortDateString()}");
         }
         public string UpdateStatus(string IsAvailable)

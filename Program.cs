@@ -15,9 +15,17 @@ namespace Interface_Implementation
             book.BookRackNo = 4;
             book.BookStatus = "Available";
             book.PurchaseDate = DateTime.Now;
+            TransactionService transaction = new TransactionService();
+            transaction.Tran_ID = "TR123";
+            transaction.Book_ID = "B1-4";
+            transaction.Memeber_ID = "M224";
+            transaction.Date_Of_Issue = DateTime.Today;
+            transaction.Due_Date = DateTime.Now.AddDays(-5);
 
             Console.WriteLine(book.UpdateStatus("Unavailable"));
             book.DisplayBookDetails();
+            Console.WriteLine(transaction.CreateTransaction());
+            transaction.DeleteTransaction();
         }
     }
 }
