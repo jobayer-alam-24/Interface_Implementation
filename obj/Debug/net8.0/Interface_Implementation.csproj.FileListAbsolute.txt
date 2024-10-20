@@ -1,0 +1,15 @@
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\bin\Debug\net8.0\Interface_Implementation.exe
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\bin\Debug\net8.0\Interface_Implementation.deps.json
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\bin\Debug\net8.0\Interface_Implementation.runtimeconfig.json
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\bin\Debug\net8.0\Interface_Implementation.dll
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\bin\Debug\net8.0\Interface_Implementation.pdb
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.AssemblyInfoInputs.cache
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.AssemblyInfo.cs
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.csproj.CoreCompileInputs.cache
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.sourcelink.json
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.dll
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\refint\Interface_Implementation.dll
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.pdb
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\Interface_Implementation.genruntimeconfig.cache
+C:\Users\JOBAYER\OneDrive\Tài liệu\Interface_Implementation\obj\Debug\net8.0\ref\Interface_Implementation.dll
