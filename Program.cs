@@ -21,11 +21,18 @@ namespace Interface_Implementation
             transaction.Memeber_ID = "M224";
             transaction.Date_Of_Issue = DateTime.Today;
             transaction.Due_Date = DateTime.Now.AddDays(-5);
-
+            Bill bill1 = new Bill();
+            bill1.BillNumber = 1;
+            bill1.BillPayDate = DateTime.Now;
+            bill1.MemeberID = "M12";
+            bill1.BillAmount = 455.5m;
+            
             Console.WriteLine(book.UpdateStatus("Unavailable"));
             book.DisplayBookDetails();
             Console.WriteLine(transaction.CreateTransaction());
             transaction.DeleteTransaction();
+            bill1.BillCreate();
+            bill1.BillUpdate(2, DateTime.Now, "ME2", 450m);
         }
     }
 }
