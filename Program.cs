@@ -26,13 +26,20 @@ namespace Interface_Implementation
             bill1.BillPayDate = DateTime.Now;
             bill1.MemeberID = "M12";
             bill1.BillAmount = 455.5m;
-            
+            Librarian librarian1 = new Librarian();
+
             Console.WriteLine(book.UpdateStatus("Unavailable"));
             book.DisplayBookDetails();
             Console.WriteLine(transaction.CreateTransaction());
             transaction.DeleteTransaction();
             bill1.BillCreate();
             bill1.BillUpdate(2, DateTime.Now, "ME2", 450m);
+            librarian1.SearchBook();
+            librarian1.VerifyMember();
+            librarian1.IssueBook();
+            Console.WriteLine($"Total Amount (Include Fine): {librarian1.CalculateFine(8)}");
+            librarian1.CreateBill(bill1);
+            librarian1.ReturnBook();
         }
     }
 }
