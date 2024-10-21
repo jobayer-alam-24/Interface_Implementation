@@ -7,14 +7,14 @@ namespace Interface_Implementation.models
 {
     public class Librarian
     {
-        private string Name {get; set;}
-        private string Password {get; set;}
+        public string Name {get; set;}
+        public string Password {get; set;}
 
         public void SearchBook()
         {
             Console.WriteLine($"Searching For Book.......");
             Thread.Sleep(4000);
-            Console.WriteLine($"Found Book. Book No 1.");
+            Console.WriteLine($"Found Book. Book Name: {Name}.");
             Console.WriteLine($"-----------------");
         }
         public void VerifyMember()
@@ -22,6 +22,7 @@ namespace Interface_Implementation.models
             Console.WriteLine($"Verifying Member.......");
             Thread.Sleep(4000);
             Console.WriteLine($"Messege: Verified");
+            Console.WriteLine($"Password: {Password}");
             Console.WriteLine($"-----------------");
         }
         public void IssueBook()

@@ -27,6 +27,16 @@ namespace Interface_Implementation
             bill1.MemeberID = "M12";
             bill1.BillAmount = 455.5m;
             Librarian librarian1 = new Librarian();
+            librarian1.Name = "Sabbir Boss";
+            librarian1.Password = "abc_123";
+            MemberRecord member = new MemberRecord();
+            member.MemeberID = "#Mem123";
+            member.Memeber_Type = "Regular";
+            member.DateOfMembership = DateTime.Now;
+            member.MaxBookLimit = 12;
+            member.Name = "Saabir Boss";
+            member.Address = "Saabir Boss, Chonka";
+            member.PhoneNumber = "01902730962 | 01909488972";
 
             Console.WriteLine(book.UpdateStatus("Unavailable"));
             book.DisplayBookDetails();
@@ -40,6 +50,10 @@ namespace Interface_Implementation
             Console.WriteLine($"Total Amount (Include Fine): {librarian1.CalculateFine(8)}");
             librarian1.CreateBill(bill1);
             librarian1.ReturnBook();
+            member.RetrieveMember();
+            member.IncreaseBookIssue();
+            member.DecreaseBookIssue();
+            member.PayBill();
         }
     }
 }
